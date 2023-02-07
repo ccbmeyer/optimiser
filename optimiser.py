@@ -14,6 +14,7 @@ for i, result in enumerate(results[:5]):
     if "wikipedia" in link:
         print(f"Wikipedia link found in result {i + 1}")
         break
+
 else:
     print("Wikipedia link not found in first 5 results")
 
